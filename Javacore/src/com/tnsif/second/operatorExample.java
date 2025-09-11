@@ -3,7 +3,7 @@ package com.tnsif.second;
 public class operatorExample {
 
 	public static void main(String[] args) {
-	int a=10;
+	int a=11;
 	int b=22;
 	System.out.println("***Arithmetic Operators***");
 	System.out.println("Addition:"+(a+b));

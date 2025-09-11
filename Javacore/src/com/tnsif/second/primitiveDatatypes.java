@@ -2,7 +2,7 @@ package com.tnsif.second;
 
 public class primitiveDatatypes {
     public static void main(String[] args) {
-		int  a=32;
+		int  a=33;
 		char c='s';
 		byte b=4;
 		short s=21;

@@ -2,7 +2,7 @@ package com.tnsif.second;
 public class Variables{
 			public void exampleLocalVariables() {
 			int Id=1;
-			String name="Geethaa";
+			String name="Geetha";
 			int age=23;
 			double salary=32200.50;
 			System.out.println("ID:"+Id);

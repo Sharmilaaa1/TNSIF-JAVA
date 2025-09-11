@@ -3,7 +3,7 @@ package com.tnsif.second;
 public class assignmentOperator {
      public static void main(String[] args) {
     	 int a=10;
-    	 int b=33;
+    	 int b=23;
     	 a+=b;
     	 System.out.println("Assignmentadiition:"+a);
     	 a-=b;
