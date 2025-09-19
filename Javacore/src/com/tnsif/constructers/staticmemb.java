@@ -5,14 +5,13 @@ class staticvar {
 	System.out.println("This is a static variable"+a);
 	System.out.println("This is a stactic method");
 }
- void Static(){
+   static{
 	System.out.println("This is a static block");
 }	
 }
 public class staticmemb {
 	public static void main(String[] args) {
-	staticvar ss=new staticvar();
-	ss.Static();
 	staticvar.method();
+	new staticvar();
 	}
 }
