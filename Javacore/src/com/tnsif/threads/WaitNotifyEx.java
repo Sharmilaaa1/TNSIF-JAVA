@@ -14,7 +14,7 @@ public class WaitNotifyEx {
 
     void notifyMethod() {
         synchronized (this) {
-            System.out.println("Notifying waiting thread...");
+            System.out.println("Notifying waiting thread");
             notify();
         }
     }

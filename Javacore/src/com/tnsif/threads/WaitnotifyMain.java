@@ -5,10 +5,10 @@ public class WaitnotifyMain {
 	        Thread t1 = new Thread(() -> obj.waitMethod());
 	        t1.start();
 	        try {
-	            Thread.sleep(1000); // give t1 time to call wait()
+	            Thread.sleep(1000);
 	        } catch (InterruptedException e) {
 	            e.printStackTrace();
 	        }
-	        obj.notifyMethod(); // main thread notifies t1
+	        obj.notifyMethod();
 	}
 }
