@@ -6,6 +6,7 @@ public class Vectorlist {
 	        V.addElement("Hyderabad");
 	        V.addElement("Mumbai");
 	        V.add("Khammam");
+	        V.add("Vizag");
 	        System.out.println(V);
 	        V.remove(1);
 	        System.out.println(V.get(0));
