@@ -3,7 +3,7 @@ import java.sql.*;
 import javax.sql.*;
 public class Demo {
 	public static void main(String[] args) throws Exception{
-		String URL = "jdbc:mysql://localhost:3306/tnsifjava1";
+		String URL = "jdbc:mysql://localhost:3306/demojdbc";
 		String USER = "root";
 		String PASSWORD = "root@123";
 		//step-1 : load and register the driver
@@ -15,7 +15,7 @@ public class Demo {
 		//step-3 : statement creation
 		Statement st = con.createStatement();	
 		//step-4 : execute a query
-		st.executeUpdate("CREATE TABLE studentinform(sid int,sname varchar(20))");
+		st.executeUpdate("CREATE TABLE student(sid int,sname varchar(20))");
 		System.out.println("Table created");	
 		st.close();
 		con.close();		
